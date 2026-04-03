@@ -66,6 +66,32 @@ These are judgment calls not specified in the brief. All are adjustable in the t
 
 ## Local Setup
 
+
+## Project Structure
+
+```
+src/
+├── components/
+│   ├── Header.tsx            # Top navbar with branding and location search
+│   ├── BidForm.tsx           # Input form for job parameters
+│   ├── BidSummary.tsx        # Output display with bid breakdown
+│   ├── LocationSearch.tsx    # Google Maps autocomplete + distance calculation
+│   └── NumberInput.tsx       # Custom number input with clean focus/blur behavior
+├── utils/
+│   ├── calculations.ts       # All bid math — pure functions
+│   └── constants.ts          # Fixed rates and reference data
+├── types/
+│   └── bid.ts                # TypeScript interfaces for inputs and results
+└── App.tsx                   # Main app — state management and layout
+```
+
+## Environment Variables
+
+| Variable | Description |
+|---|---|
+| `VITE_GOOGLE_MAPS_API_KEY` | Google Maps API key for location search and distance calculation |
+
+
 ```bash
 git clone https://github.com/[your-username]/beyond-bid-tool.git
 cd beyond-bid-tool
