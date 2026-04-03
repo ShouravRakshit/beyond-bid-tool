@@ -6,7 +6,9 @@ Built as part of the Beyond Group candidate challenge (72-hour brief).
 
 ## Live Demo
 
-[Link to deployed app on Vercel]
+```bash
+https://beyond-bid-tool.vercel.app/
+```
 
 ## The Problem
 
@@ -28,7 +30,7 @@ A web-based calculator where a Beyond team member inputs the job parameters and 
 The tool is pre-loaded with the Lethbridge bridge abutment scenario from the challenge brief:
 - 18 m³ void fill
 - HMI 2.5 lb closed-cell polyurethane foam
-- 2-day job, ~250 km from Calgary
+- 2-day job, ~212 km from Calgary
 - One-year contingency option
 
 [Screenshot or summary of the output here]
