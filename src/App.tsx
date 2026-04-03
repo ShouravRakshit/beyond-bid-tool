@@ -15,7 +15,7 @@ const DEFAULT_INPUTS: BidInputs = {
   crewSize: 3,
   hoursPerDay: 10,
   jobDays: 2,
-  distanceKm: 220,
+  distanceKm: 212,
   hotelRooms: 2,
   hotelNights: 2,
   perDiemDays: 2,
