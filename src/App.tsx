@@ -19,7 +19,7 @@ const DEFAULT_INPUTS: BidInputs = {
   hotelRooms: 2,
   hotelNights: 2,
   perDiemDays: 2,
-  contingencyYears: 0,
+  contingencyYears: 1,
 };
 
 function App() {
